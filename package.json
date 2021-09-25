@@ -1,0 +1,23 @@
+{
+  "name": "u-tm-nodejs-vidjot",
+  "version": "1.0.0",
+  "description": "This is me following Brad Traversy's [udemy course](https://www.udemy.com/course/draft/1358300/)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Novailoveyou/u-tm-nodejs-vidjot.git"
+  },
+  "keywords": [],
+  "author": "Novailoveyou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Novailoveyou/u-tm-nodejs-vidjot/issues"
+  },
+  "homepage": "https://github.com/Novailoveyou/u-tm-nodejs-vidjot#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
