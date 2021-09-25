@@ -12,6 +12,12 @@ Year 2021
 
 ## CLI
 
+Get path for npm global folder
+
+```zsh
+npm root -g
+```
+
 ### Mongodb CLI with mongosh
 
 ```zsh
