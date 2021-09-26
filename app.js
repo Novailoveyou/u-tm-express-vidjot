@@ -2,8 +2,15 @@ const express = require('express')
 
 const app = express()
 
+// How middleware works
+app.use((req, res, next) => {
+  req.name = 'Nover'
+  next()
+})
+
 // Index Route
 app.get('/', (req, res) => {
+  console.log(req.name)
   res.send('HOME')
 })
 
