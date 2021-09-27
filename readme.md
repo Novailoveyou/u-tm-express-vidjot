@@ -18,6 +18,26 @@ Get path for npm global folder
 npm root -g
 ```
 
+### Mongodb CLI
+
+Start mongodb
+
+```zsh
+sudo systemctl start mongodb
+```
+
+Get mongodb status
+
+```zsh
+sudo systemctl status mongodb
+```
+
+Run mongodb on startup
+
+```zsh
+sudo systemctl enable mongodb
+```
+
 ### Mongodb CLI with mongosh
 
 ```zsh
