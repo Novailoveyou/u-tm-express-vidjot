@@ -55,8 +55,6 @@ app.post('/ideas', (req, res) => {
     errors.push({ text: 'Please add some details' })
   }
 
-  console.log(errors)
-
   if (errors.length > 0) {
     res.render('ideas/add', {
       errors,
@@ -64,7 +62,13 @@ app.post('/ideas', (req, res) => {
       details: req.body.details
     })
   } else {
-    res.send('passed')
+    const newUser = {
+      title: req.body.title,
+      details: req.body.details
+    }
+    new Idea(newUser).save().then(idea => {
+      res.redirect('/ideas')
+    })
   }
 })
 
