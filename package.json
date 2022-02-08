@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Novailoveyou/u-tm-nodejs-vidjot#readme",
   "dependencies": {
+    "body-parser": "^1.19.1",
     "express": "^4.17.1",
     "express-handlebars": "^5.3.4",
     "mongoose": "^6.0.7"
